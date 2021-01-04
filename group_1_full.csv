@@ -1,4 +1,4 @@
-person,offer_id,time,event,reward_x,amount,offer_type,view,complete,gender,age,became_member_on,income,generation,loyality
+person,offer_id,time,event,reward_x,amount,offer_type,view,complete,gender,age,became_member_on,income,generation,loyalty
 0011e0d4e6b944f998e987f904e8c1e5,2298d6c36e964ae4a3e7e9706d1fb8c2,252,offer completed,3.0,,discount,1,1,O,40.0,2018-01-09,57000.0,30s,198.0
 0011e0d4e6b944f998e987f904e8c1e5,0b1e1539f2cc45b7b9fa7c272da2e1d7,576,offer completed,5.0,,discount,1,1,O,40.0,2018-01-09,57000.0,30s,198.0
 0011e0d4e6b944f998e987f904e8c1e5,9b98b8c7a33c4b65b9aebfe6a799e6d9,576,offer completed,5.0,,bogo,1,1,O,40.0,2018-01-09,57000.0,30s,198.0
