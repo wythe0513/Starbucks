@@ -9,6 +9,9 @@ As a part of the couse of [Udacity](https://www.udacity.com/), Data Science Nano
 3. `transcript.json`(Event log (306648 events x 4 fields))
 
 ## Files
+1.Starbucks_Capstone_notebook.jpynb
+2.visuals.py
+3. customers.csv
 
 ## Purposes and approaches
 
