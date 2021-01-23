@@ -3,30 +3,24 @@
 ## Introduction
 As a part of the couse of [Udacity](https://www.udacity.com/), Data Science Nanodegree, I work on data sets which is kindly given by [Starbucks](https://www.starbucks.com/) for the purpose of this course. This page is a summary of my findingns, if interested, code is [here](https://github.com/wythe0513/Starbucks).
 
-## File Description
+## Data Description
 1. `profile.json`(Rewards program users (17000 users x 5 fields))
-- gender: (categorical) M, F, O, or null
-- age: (numeric) missing value encoded as 118
-- id: (string/hash)
-- became_member_on: (date) format YYYYMMDD
-- income: (numeric)
-
 2. `portfolio.json`(Offers sent during 30-day test period (10 offers x 6 fields))
-- reward: (numeric) money awarded for the amount spent
-- channels: (list) web, email, mobile, social
-- difficulty: (numeric) money required to be spent to receive reward
-- duration: (numeric) time for offer to be open, in days
-- offer_type: (string) bogo, discount, informational
-- id: (string/hash)
-
 3. `transcript.json`(Event log (306648 events x 4 fields))
-- person: (string/hash)
-- event: (string) offer received, offer viewed, transaction, offer completed
-- value: (dictionary) different values depending on event type
-- offer id: (string/hash) not associated with any "transaction"
-- amount: (numeric) money spent in "transaction"
-- reward: (numeric) money gained from "offer completed"
-- time: (numeric) hours after start of test
+
+## Files
+
+## Purposes and approaches
+
+The purpose of my exploration on those data is as follow;
+
+1. To try to understand the customers and answer the question, what are the features of customers(age, income, genders etc.) who spend or not spend on Starbucks products during the test period. 
+2. To try to find answers to the question, what kind of features of customers who view offers, if yes, which channels work more effectively to communicate with customers?
+3. To try to find answers to the question, did offers are attractive enough to make them action, if yes, what offers are effective to what customers group?
+
+In order to find answers of those questions, I made heuristic analysis through a comparing plots as well as machine learning analysis such as PCA(Principal Component Analysis) and supervised learnings by sklearn's SVM, Adaboost, Random Forest and also Logistic Regression classifiers.
+
+
 ## Results
 
 Findings is [here](https://gitpress.io/u/1402/Starbucks)
